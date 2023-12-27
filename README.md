@@ -9,10 +9,10 @@ This Java application is designed to solve first-order linear recurrence relatio
 - **Series Generation**: Calculates and prints the first ten terms of the series.
 
 ## Input Format
-The program expects input in the following format:
-S(1) [initial_value]
-c [common_ratio]
-g(n) [constant_term]
+The program expects input in the following format:  
+S(1) [initial_value]  
+c [common_ratio]  
+g(n) [constant_term]  
 
 Where `[initial_value]`, `[common_ratio]`, and `[constant_term]` are numerical values defining the recurrence relation. The program assumes `g(n)` to be constant.
 
