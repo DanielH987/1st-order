@@ -38,5 +38,3 @@ To use this application:
 ## Contributing
 Contributions to this project are welcome. Please ensure to follow the existing coding style and add unit tests for any new or changed functionality.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
