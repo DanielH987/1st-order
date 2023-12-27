@@ -1,18 +1,42 @@
-## Getting Started
+# First-Order Linear Recurrence Solver
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
+This Java application is designed to solve first-order linear recurrence relations. It reads input from the standard input, calculates the closed form of the recurrence relation, and outputs the first ten terms of the series. The program is based on the algorithm outlined in Section 3.2 of the referenced textbook.
 
-## Folder Structure
+## Features
+- **Input Processing**: Reads three lines of input representing the components of a first-order linear recurrence relation.
+- **Closed Form Calculation**: Converts the first-order recurrence relation into its closed form.
+- **Series Generation**: Calculates and prints the first ten terms of the series.
 
-The workspace contains two folders by default, where:
+## Input Format
+The program expects input in the following format:
+S(1) [initial_value]
+c [common_ratio]
+g(n) [constant_term]
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Where `[initial_value]`, `[common_ratio]`, and `[constant_term]` are numerical values defining the recurrence relation. The program assumes `g(n)` to be constant.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Example
+Input:
+S(1) 4
+c 2
+g(n) 3
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Output:
+S(n) = 2.0^(n-1) * 4.0 + sigma(2.0^(n-i) * 3.0)
+S(1) = 4.0
+S(2) = 11.0
+...
+S(10) = 3581.0
 
-## Dependency Management
+## Usage
+To use this application:
+1. Compile the Java code.
+2. Run the program.
+3. Enter the required values (`S(1)`, `c`, and `g(n)`) when prompted.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Contributing
+Contributions to this project are welcome. Please ensure to follow the existing coding style and add unit tests for any new or changed functionality.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
