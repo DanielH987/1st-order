@@ -17,17 +17,17 @@ g(n) [constant_term]
 Where `[initial_value]`, `[common_ratio]`, and `[constant_term]` are numerical values defining the recurrence relation. The program assumes `g(n)` to be constant.
 
 ## Example
-Input:
-S(1) 4
-c 2
-g(n) 3
+Input:  
+S(1) 4  
+c 2  
+g(n) 3  
 
-Output:
-S(n) = 2.0^(n-1) * 4.0 + sigma(2.0^(n-i) * 3.0)
-S(1) = 4.0
-S(2) = 11.0
-...
-S(10) = 3581.0
+Output:  
+S(n) = 2.0^(n-1) * 4.0 + sigma(2.0^(n-i) * 3.0)  
+S(1) = 4.0  
+S(2) = 11.0  
+...  
+S(10) = 3581.0  
 
 ## Usage
 To use this application:
