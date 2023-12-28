@@ -1,7 +1,7 @@
 # First-Order Linear Recurrence Solver
 
 ## Overview
-This Java application is designed to solve first-order linear recurrence relations. It reads input from the standard input, calculates the closed form of the recurrence relation, and outputs the first ten terms of the series. The program is based on the algorithm outlined in Section 3.2 of the referenced textbook.
+This Java application is designed to solve first-order linear recurrence relations. It reads input from the standard input, calculates the closed form of the recurrence relation, and outputs the first ten terms of the series. The program is based on the algorithm outlined in Section 3.2 of the [*Mathematical Structures for Computer Science*, 7th edition](https://www.amazon.com/Mathematical-Structures-Computer-Science-Gersting/dp/1429215100).
 
 ## Features
 - **Input Processing**: Reads three lines of input representing the components of a first-order linear recurrence relation.
